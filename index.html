@@ -4,22 +4,24 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Simple Form</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
+	<aside></aside>
 	<main>
 		<form>
 			<section class="shortsignup">
 				<div class="head">Sign up with</div>
 				<div>
-					<button type="button">GitHub</button>
-					<button type="button">Twitter</button>
+					<button type="button"><i class="fa fa-github"></i><span class="site">GitHub</span></button>
+					<button type="button"><i class="fa fa-twitter"></i><span class="site">Twitter</span></button>
 				</div>
 			</section>
 			<section class="traditional">
 				<div class="head">Or Sign in with email and password</div>
 				<div>
-					<input type="text" placeholder="Email" name="email" class="userinput" id="email">
+					<input autofocus type="text" placeholder="Email" name="email" class="userinput" id="email">
 					<div class="errormessage1"></div>
 				</div>
 				<div>
