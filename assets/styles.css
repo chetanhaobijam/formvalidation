@@ -92,7 +92,7 @@ input[type="submit"]:hover {
 	outline: none;
 }
 
-.error {
+.errormessage1, .errormessage2 {
 	margin-top: 10px;
 	font-size: 0.9rem;
 	color: #ff0000;
